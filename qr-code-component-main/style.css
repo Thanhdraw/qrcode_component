@@ -6,17 +6,14 @@
 html{
     position: relative;
     height: auto;
+    background-color: #CBD7E5;
 }
 #card{
     position: absolute;
     text-align: center;
     margin-top: 20px;
     border-radius: 15px;
-    background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-
-
-
+    background-color: #fff;
     width: 500px;
     height: 800px;
     left: 50%;
@@ -26,14 +23,28 @@ html{
     margin: 11px 8px;    
 }
 #card .card-img{
-    margin: 20px;
-    padding: 20px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 5px;
+    /* float: left; */
+    /* left: 50%; */
+    /* right: 50%; */
+    /* top: 15%; */
+    display: fl;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: center;
+    
 
 }
 #card .card-img img{
     /* margin-top: 20px; */
     max-width: 400px;
     border-radius: 15px;
+    border: 1px solid #000000;
 }
 #card .card-text{
     justify-content: center;
@@ -51,9 +62,8 @@ html{
     position: absolute;
     left: 5%;
     right: 5%;
-    top: 78.56%;
+    top: 72%;
     bottom: 13.49%;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -62,8 +72,8 @@ html{
     display: flex;
     align-items: center;
     text-align: center;
-
     color: #898989;
-
-
+}
+ .attribution{
+    bottom: 0;
 }
