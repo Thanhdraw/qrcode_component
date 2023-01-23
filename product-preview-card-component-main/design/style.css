@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: auto;
+    
+    background-color: blanchedalmond;
+}
+#card-produtct{
+    top: 50px;
+    background-color: aqua  ;
+    max-width: 500px;
+
+}
+.product-img img{
+    max-width: 200px;
+}
